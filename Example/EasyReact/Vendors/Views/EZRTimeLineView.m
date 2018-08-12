@@ -41,12 +41,15 @@
 }
 
 - (CGSize)intrinsicContentSize {
-    return CGSizeMake(UIScreen.mainScreen.bounds.size.width, 120);
+    return CGSizeMake(UIScreen.mainScreen.bounds.size.width, 100);
 }
 
 - (void)setName:(NSString *)name {
-    _name = name;
-    self.nameLabel.text = _name;
+    self.nameLabel.text = name;
+}
+
+- (NSString *)name {
+    return self.nameLabel.text;
 }
 
 - (CGRect)lineFrame {

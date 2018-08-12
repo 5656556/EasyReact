@@ -47,15 +47,15 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Bt-nR-Z1c" userLabel="ContainerView">
                                                         <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="120" translatesAutoresizingMaskIntoConstraints="NO" id="bdR-T2-kXx" customClass="EZRValueSnapshotView">
-                                                                <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                                                            <view contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="120" translatesAutoresizingMaskIntoConstraints="NO" id="bdR-T2-kXx" customClass="EZRValueSnapshotView">
+                                                                <rect key="frame" x="0.0" y="0.0" width="64" height="78"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="120" id="4zF-P3-w9w"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="120" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-lH-lZP" customClass="EZRValueSnapshotView">
-                                                                <rect key="frame" x="225" y="140" width="375" height="120"/>
+                                                            <view contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="120" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-lH-lZP" customClass="EZRValueSnapshotView">
+                                                                <rect key="frame" x="225" y="140" width="64" height="78"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </view>
                                                         </subviews>

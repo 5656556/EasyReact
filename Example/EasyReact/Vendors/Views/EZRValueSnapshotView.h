@@ -11,5 +11,8 @@
 @interface EZRValueSnapshotView : UIView
 
 - (void)addNewValue:(NSString *)value;
+@property (nonatomic, strong) UIColor *snapshotColor;
+@property (nonatomic, copy) NSString *value;
+@property (nonatomic, strong) NSDate *time;
 
 @end
