@@ -24,6 +24,10 @@
         [[NSBundle bundleForClass:EZRValueSnapshotView.class] loadNibNamed:@"EZRValueSnapshotView" owner:self options:nil];
         [self addSubview:self.contentView];
         [super setBackgroundColor:[UIColor clearColor]];
+        self.valueLabel.layer.cornerRadius = CGRectGetWidth(self.valueLabel.frame) / 2;
+        self.valueLabel.layer.borderColor = [UIColor blackColor].CGColor;
+        self.valueLabel.layer.backgroundColor = [UIColor redColor].CGColor;
+        self.valueLabel.layer.borderWidth = 1.0;
     }
     return self;
 }
@@ -48,7 +52,6 @@
 - (void)setSnapshotColor:(UIColor *)snapshotColor {
     _snapshotColor = snapshotColor;
     self.valueLabel.layer.backgroundColor = snapshotColor.CGColor;
-
 }
 
 - (void)setTime:(NSDate *)time {
